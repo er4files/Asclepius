@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_700</item> <!-- Warna toolbar -->
+        <item name="colorPrimaryDark">@color/grey_900</item> <!-- Warna status bar -->
+        <item name="colorAccent">@color/green_500</item> <!-- Warna aksen untuk kontrol, tombol, dll -->
+        <item name="android:textColorPrimary">@color/black</item> <!-- Warna teks primer -->
+        <item name="android:textColorSecondary">@color/grey_600</item> <!-- Warna teks sekunder -->
+        <item name="android:windowBackground">@color/white</item> <!-- Warna latar belakang jendela -->
+        <item name="android:colorBackground">@color/blue_grey_100</item> <!-- Warna latar belakang keseluruhan aplikasi -->
+    </style>
+
+    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius" />
+</resources>
